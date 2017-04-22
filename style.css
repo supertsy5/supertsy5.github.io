@@ -1,7 +1,8 @@
 body{
 font-family:"Courier New",monospace;
 line-height:2em;
-background-color:#ffffff;
+background-color:#fff;
+color:#000;
 }
 nav{
 float:left;
@@ -17,11 +18,11 @@ margin-left:350px;
 padding:8px;
 }
 a:link,a:visited{
-color:#204060;
+color:#246;
 text-decoration:none;
 }
 a:hover{
-color:#007fff;
+color:#06c;
 }
 a.button:link,a.button:visited{
 text-align:center;

@@ -1,8 +1,11 @@
 body{
-font-family:"Courier New",monospace;
+font-family:"Century Gothic",sans-serif;
 line-height:2em;
 background-color:#fff;
-color:#000;
+color:#333;
+}
+h1{
+text-indent:2em;
 }
 nav{
 float:left;
@@ -18,18 +21,18 @@ margin-left:350px;
 padding:8px;
 }
 a:link,a:visited{
-color:#246;
+color:#393;
 text-decoration:none;
 }
 a:hover{
-color:#06c;
+color:#9c6;
 }
 a.button:link,a.button:visited{
 text-align:center;
-border:1px solid #204060;
+border:1px solid #393;
 }
 a.button:hover{
-background-color:#204060;
+background-color:#393;
 color:#ffffff;
 }
 #download{
@@ -61,10 +64,9 @@ p#desc{
 display:block;
 padding:4px 16px;
 line-height:2em;
-color:#404040;
 }
 div#footer{
 clear:both;
 text-align:center;
-color:#304050;
+color:#363;
 }

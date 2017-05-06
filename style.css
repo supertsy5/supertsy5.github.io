@@ -2,23 +2,6 @@ body{
 font-family:"Century Gothic",sans-serif;
 line-height:2em;
 background-color:#fff;
-color:#333;
-}
-h1{
-text-indent:2em;
-}
-nav{
-float:left;
-width:350px;
-text-align:center;
-font-size:14pt;
-}
-ul{
-text-align:left;
-}
-div#main{
-margin-left:350px;
-padding:8px;
 }
 a:link,a:visited{
 color:#393;
@@ -35,35 +18,22 @@ a.button:hover{
 background-color:#393;
 color:#ffffff;
 }
-#download{
-display:block;
-position:relative;
-top:32px;
-width:256px;
+h1{
+text-indent:2em;
+}
+h2,h3,h4,h5,h6{font-weight:normal;}
+nav{
+float:left;
+width:350px;
+text-align:center;
+font-size:14pt;
+}
+ul{
+text-align:left;
+}
+div#main{
+margin-left:350px;
 padding:8px;
-}
-div#header{
-}
-div#logo{
-float:left;
-width:192px;
-height:192px;
-margin:20px 0px;
-}
-div#header-right{
-float:left;
-margin:0px 30px;
-}
-div#gallery{
-clear:both;
-}
-div#gallery img{
-height:640px;
-}
-p#desc{
-display:block;
-padding:4px 16px;
-line-height:2em;
 }
 div#footer{
 clear:both;

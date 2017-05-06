@@ -3,27 +3,38 @@
 <head>
 <title>Mobile Applications - SUPERTSY5's</title>
 <link href="/style.css" rel="stylesheet"/>
+<style>
+div.card{float:left;padding:32px;width:192px;}
+div.card:hover{background-color:#eee;}
+div.icon{width:192px;height:192px;}
+h3{margin-top:16px;text-align:center;}
+</style>
 </head>
 <body>
 <div id="header">
-<a href="/"><h1>SUPERTSY5's</h1></a>
+<h1><a href="/">SUPERTSY5's</a></h1>
 </div>
 <div id="main-wrapper">
 <nav>
 <ul>
+<li><a href="/blog">Blog</a></li>
 <li><a href="/deskapp">Desktop Applications</a></li>
 <li><a href="/mobapp">Mobile Applications</a></li>
 <li><a href="/onlineapp">Online Applications</a></li>
-<li><a href="/resources">Resources</a></li>
 </ul>
 </nav>
 <div id="main">
 <h1>Mobile Applications</h1>
-<ul>
-<li><a href="xztsq">选择题神器</a></li>
-</ul>
+<div class="card">
+<div class="icon"
+style="background-image:url(xztsq/icon.png);"
+onmouseover="this.style='background-image:url(xztsq/icon_hover.png);'"
+onmouseout="this.style='background-image:url(xztsq/icon.png);'"
+onclick="self.location='https://github.com/supertsy5/supertsy5.github.io/releases/download/v1.0.2/xztsq102.apk'"></div>
+<h3><a href="xztsq">选择题神器</a></h3>
 </div>
 </div>
-<div id="footer">&copy;2016 SUPERTSY5 All rights reserved.</div>
+</div>
+<div id="footer">&copy;2016-2026 SUPERTSY5 All rights reserved.</div>
 </body>
 </html>

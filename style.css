@@ -1,3 +1,23 @@
+@font-face{
+font-family:"Century Gothic";
+src:url(fonts/gothic.ttf);
+}
+@font-face{
+font-family:"Century Gothic";
+src:url(fonts/gothicb.ttf);
+font-weight:bold;
+}
+@font-face{
+font-family:"Century Gothic";
+src:url(fonts/gothici.ttf);
+font-style:italic;
+}
+@font-face{
+font-family:"Century Gothic";
+src:url(fonts/gothicbi.ttf);
+font-weight:bold;
+font-style:italic;
+}
 body{
 font-family:"Century Gothic",sans-serif;
 line-height:2em;
@@ -21,19 +41,26 @@ color:#ffffff;
 h1{
 text-indent:2em;
 }
-h2,h3,h4,h5,h6{font-weight:normal;}
 nav{
 float:left;
-width:350px;
+width:384px;
 text-align:center;
 font-size:14pt;
 }
 ul{
 text-align:left;
 }
+div#main-wrapper{
+padding:0px 16px;
+}
 div#main{
-margin-left:350px;
-padding:8px;
+float:left;
+width:1280px;
+}
+p{
+text-indent:2em;
+line-height:2.5em;
+word-spacing:0.5em;
 }
 div#footer{
 clear:both;

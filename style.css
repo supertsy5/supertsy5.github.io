@@ -1,20 +1,20 @@
 @font-face{
 font-family:"Century Gothic";
-src:url(fonts/gothic.ttf);
+src:url(fonts/GOTHIC.TTF);
 }
 @font-face{
 font-family:"Century Gothic";
-src:url(fonts/gothicb.ttf);
+src:url(fonts/GOTHICB.TTF);
 font-weight:bold;
 }
 @font-face{
 font-family:"Century Gothic";
-src:url(fonts/gothici.ttf);
+src:url(fonts/GOTHICI.TTF);
 font-style:italic;
 }
 @font-face{
 font-family:"Century Gothic";
-src:url(fonts/gothicbi.ttf);
+src:url(fonts/GOTHICBI.TTF);
 font-weight:bold;
 font-style:italic;
 }

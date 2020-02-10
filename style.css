@@ -1,25 +1,5 @@
-@font-face{
-font-family:"Century Gothic";
-src:url(fonts/GOTHIC.TTF);
-}
-@font-face{
-font-family:"Century Gothic";
-src:url(fonts/GOTHICB.TTF);
-font-weight:bold;
-}
-@font-face{
-font-family:"Century Gothic";
-src:url(fonts/GOTHICI.TTF);
-font-style:italic;
-}
-@font-face{
-font-family:"Century Gothic";
-src:url(fonts/GOTHICBI.TTF);
-font-weight:bold;
-font-style:italic;
-}
 body{
-font-family:"Century Gothic",sans-serif;
+font-family:'Noto Sans', 'Noto Sans CJK SC', sans-serif;
 line-height:2em;
 background-color:#fff;
 }
